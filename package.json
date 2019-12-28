@@ -7,7 +7,6 @@
   },
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:hoist": "lerna hoist" 
   },
   "dependencies": {
     "@types/node": "^13.1.1",
