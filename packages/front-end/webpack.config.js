@@ -26,6 +26,15 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
+        test: /\.tsx$/,
+        enforce: 'pre',
+        use: [
+          {
+            loader: 'tslint-loader',
+          }
+        ]
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
