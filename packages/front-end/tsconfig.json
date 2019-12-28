@@ -2,9 +2,12 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "target": "es5",
-    "jsx": "react"
-  },
-  "include": [
-    "./src/**/*"
-  ],
+    "jsx": "react",
+    "rootDir": "src",
+    "incremental": true,
+    "module": "ES2015",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+  }
 }

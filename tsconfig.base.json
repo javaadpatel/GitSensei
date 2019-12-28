@@ -1,15 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "strict": true,
-    "incremental": true,
-    "module": "ES2015",
-    "tsBuildInfoFile": "./tsbuildinfo",
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-  },
-  "exclude": [
-    "./node_modules"
-  ]
+    "baseUrl": "./packages"
+    // "paths": {
+    // reserved for when we need to resolve modules within the monorepo     
+    // }
+  }
 }

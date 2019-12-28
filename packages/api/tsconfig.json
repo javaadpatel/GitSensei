@@ -1,8 +1,14 @@
 {
-  "include": [
-    "src/**/*"
-  ],
   "compilerOptions": {
     "outDir": "./dist",
+    "rootDir": "src",
+    "target": "ES2018",
+    "strict": true,
+    "incremental": true,
+    "module": "ES2015",
+    "tsBuildInfoFile": "./tsbuildinfo",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
   }
 }
