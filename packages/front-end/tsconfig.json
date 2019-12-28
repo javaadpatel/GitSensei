@@ -1,18 +1,10 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "target": "es5",
-    "strict": true,
-    "incremental": true,
-    "module": "es2015",
-    "jsx": "react",
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
+    "jsx": "react"
   },
   "include": [
     "./src/**/*"
   ],
-  "exclude": [
-    "./node_modules"
-  ]
 }

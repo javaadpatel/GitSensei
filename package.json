@@ -6,7 +6,7 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
-    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:bootstrap": "lerna bootstrap"
   },
   "dependencies": {
     "@types/node": "^13.1.1",
