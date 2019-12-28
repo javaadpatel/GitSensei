@@ -5,5 +5,12 @@
     "lerna": "^3.19.0",
     "typescript": "^3.7.4"
   },
-  "dependencies": {}
+  "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:hoist": "lerna hoist" 
+  },
+  "dependencies": {
+    "@types/node": "^13.1.1",
+    "dev": "^0.1.3"
+  }
 }
