@@ -3,9 +3,11 @@
   "rules": {
     "max-line-length": {
       "options": [
-        100
+        180
       ]
     },
+    "ordered-imports": false,
+    "space-before-function-paren": true,
     "eofline": false,
     "no-consecutive-blank-lines": false,
     "ban-ts-ignore": true,
