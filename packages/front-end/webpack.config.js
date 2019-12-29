@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const devMode = process.env.NODE_ENV === 'development';
+const isDevMode = process.env.NODE_ENV === 'development';
 
 module.exports = {
   entry: './src/index.tsx',
@@ -53,7 +53,7 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: true,
+    minimize: isDevMode,
     splitChunks: {
       chunks: 'all',
     },
@@ -62,7 +62,7 @@ module.exports = {
     chunks: true,
     chunkModules: false
   },
-  devtool: devMode && 'inline-source-map',
+  devtool: isDevMode && 'inline-source-map',
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
   },

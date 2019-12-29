@@ -6,6 +6,7 @@
         180
       ]
     },
+    "arrow-parens": false,
     "ordered-imports": false,
     "space-before-function-paren": true,
     "eofline": false,
